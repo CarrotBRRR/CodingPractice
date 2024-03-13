@@ -16,6 +16,6 @@ class Solution {
                     tank = 0;
                 }
             }
-            return total >= 0 ? start : -1;
+            return total >= 0 ? start : -1; // if total is less than 0, then there is no solution
         }
 };
